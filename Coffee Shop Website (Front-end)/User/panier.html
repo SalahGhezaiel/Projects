@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coffee Shop Website">
+    <!-- Browser Icon -->
+    <link rel="shortcut icon" href="../img/shop-sign.png" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="panier.css">
+    <title>Panier</title>
+</head>
+<body>
+
+    <header class="header">
+    
+        <button type="button" class="nav-toggler" name="togglerButton">
+            <span></span>
+        </button>
+    
+        <a href="User.html" class="logo" translate="no">coffee shop <i class="fas fa-mug-hot"></i></a>
+
+    
+    </header>
+
+    <h3> &nbsp;&nbsp; PANIER</h3>
+
+
+    <section> 
+        <div style="float: left;">
+        <img src="img/americano-img.png">
+        </div>
+        <div>
+            <h4>x1 americano</h4>
+            <span>9.99 TND</span>
+        </div>           
+    </section>
+    <section>
+        <div style="float: left;">
+            <img src="img/black-coffee-img.png">
+        </div>
+        <div>
+            <h4>x1 black coffee</h4>
+            <span>9.99 TND</span>
+        </div>
+    </section>
+    <section>
+        <div style="float: left;">
+            <img src="img/caffe-latte-img.png">
+        </div>
+        <div>
+            <h4>x1 caffe latte</h4>
+            <span>9.99 TND</span>
+        </div>
+    </section>
+    <section>
+        <button class="btn" id="confirm-button">Confirm</button>
+    </section>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            
+            <p class="text">Your order has been confirmed!<span class="close">&times;</span> </p>
+        </div>
+    </div>
+
+
+        <script src="../js/all.js"></script>
+        <script src="../js/swiper-bundle.min.js"></script>
+        <script src="../js/script.js"></script>
+        <script src="panier.js"></script>
+        <script src="confirm.js"></script>
+
+        
+</body>
+</html>

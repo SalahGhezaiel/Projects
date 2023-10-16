@@ -1,0 +1,89 @@
+.container {
+    overflow: hidden;
+}
+
+.orders {
+    float: left;
+    width: 50%;
+}
+
+.tables {
+    float: right;
+    width: 50%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    padding-left: 5cm;
+    margin-bottom: 10px;
+}
+
+.order-details,
+.table-details {
+    display: flex;
+    flex-direction: column;
+    color: #491c01;
+    padding-bottom: 0.5cm;
+}
+
+.order-details .name,
+.table-details .name {
+    font-weight: bold;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.order-details .time,
+.table-details .time {
+    font-size: 2rem;
+    color: #692700;
+}
+
+.order-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-items div {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.table-reservation {
+    display: flex;
+    flex-direction: column;
+}
+
+.table-reservation div {
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+
+
+h2 {
+    font-size: 4rem;
+    color: var(--mainColor);
+    text-transform: uppercase;
+    margin-bottom: 0.5cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2cm;
+}
+
+.container1 {
+    transform: translateY(-1.8cm);
+}
+
+.table-reservation * {
+    margin-bottom: 10%;
+}

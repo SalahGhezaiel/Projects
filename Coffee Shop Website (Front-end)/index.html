@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coffee Shop Website">
+    <!-- Browser Icon -->
+    <link rel="shortcut icon" href="img/shop-sign.png" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Coffee Shop</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+
+        <button type="button" class="nav-toggler" name="togglerButton">
+            <span></span>
+        </button>
+
+        <a href="#home" class="logo" translate="no">coffee shop <i class="fas fa-mug-hot"></i></a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#book">book</a>
+        </nav>
+
+        <a href="#book" class="btn" id="login" >book a table</a>
+
+    </header>
+
+    <!-- End Header -->
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="row">
+            <div class="content">
+                <h3>fresh coffee in the morning</h3>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, optio ipsum officiis iusto
+                repellendus, voluptas quibusdam amet natus eos doloremque cumque omnis. Vitae veritatis harum error
+                a, autem beatae magnam!</h4>
+                <a href="#menu" class="btn" id="login">Order Now</a>
+            </div>
+            <icon class="imgBx">
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_kjpkr2oh.json" background="transparent"
+                    speed="1" style="width: 800px; height: 800px" loop autoplay>
+                </lottie-player>
+            </icon>
+        </div>
+    </section>
+    <!-- End Home -->
+
+    <!-- About -->
+    <section class="about" id="about">
+        <h1 class="heading">about us <span>why choose us</span></h1>
+
+        <div class="row">
+            <icon class="imgBx">
+                <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+                <lord-icon
+                src="https://cdn.lordicon.com/uxtcmjmu.json"
+                trigger="loop" 
+                colors="primary:#121331,secondary:#913710"
+                stroke="60" 
+                scale="55" 
+                style="width:500px;height:500px">
+                </lord-icon>
+            </icon>
+            <div class="content">
+                <h3 class="title">what's making our coffee special!</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, optio ipsum officiis iusto
+                    repellendus, voluptas quibusdam amet natus eos doloremque cumque omnis. Vitae veritatis harum error
+                    a, autem beatae magnam!</p>
+                <a href="javascript:void(0)" id="disabledLink" class="btn">read more</a>
+                <div class="iconsContainer">
+                    <div class="icons">
+                        <img src="img/about-icon-1.png" alt="about Icon 1">
+                        <h3>coffee quality</h3>
+                    </div>
+                    <div class="icons">
+                        <img src="img/about-icon-2.png" alt="about Icon 2">
+                        <h3>our branches</h3>
+                    </div>
+                    <div class="icons">
+                        <img src="img/about-icon-3.png" alt="about Icon 3">
+                        <h3>free delivery</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About -->
+
+    <!-- Menu -->
+    <section class="menu" id="menu">
+        <h1 class="heading">our menu <span>products </span></h1>
+        <div class="boxContainer">
+            <a href="http://127.0.0.1:3000/LoginSignup/login.html" id="disabledLink" class="box">
+                <img src="img/americano-img.png" alt="coffee 1">
+                <div class="content">
+                    <h3>americano</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, veniam.</p>
+                    <span>9.99 TND</span>
+                </div>
+            </a>
+            <a href="http://127.0.0.1:3000/LoginSignup/login.html" id="disabledLink" class="box">
+                <img src="img/black-coffee-img.png" alt="coffee 2">
+                <div class="content">
+                    <h3>black coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, veniam.</p>
+                    <span>9.99 TND</span>
+                </div>
+            </a>
+            <a href="http://127.0.0.1:3000/LoginSignup/login.html" id="disabledLink" class="box">
+                <img src="img/caffe-latte-img.png" alt="coffee 3">
+                <div class="content">
+                    <h3>caffe latte</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, veniam.</p>
+                    <span>9.99 TND</span>
+                </div>
+            </a>
+            <a href="http://127.0.0.1:3000/LoginSignup/login.html" id="disabledLink" class="box">
+                <img src="img/capuccino-img.png" alt="coffee 4">
+                <div class="content">
+                    <h3>capuccino</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, veniam.</p>
+                    <span>9.99 TND</span>
+                </div>
+            </a>
+            <a href="http://127.0.0.1:3000/LoginSignup/login.html" id="disabledLink" class="box">
+                <img src="img/espresso-img.png" alt="coffee 5">
+                <div class="content">
+                    <h3>espresso</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, veniam.</p>
+                    <span>9.99 TND</span>
+                </div>
+            </a>
+            <a href="http://127.0.0.1:3000/LoginSignup/login.html" id="disabledLink" class="box">
+                <img src="img/mocha-img.png" alt="coffee 6">
+                <div class="content">
+                    <h3>mocha</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, veniam.</p>
+                    <span>9.99 TND</span>
+                </div>
+            </a>
+            <a href="http://127.0.0.1:3000/LoginSignup/login.html" id="disabledLink" class="box">
+                <img src="img/latte-machiato-img.png" alt="coffee 6">
+                <div class="content">
+                    <h3>latte machiato</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, veniam.</p>
+                    <span>9.99 TND</span>
+                </div>
+            </a>
+            <a href="http://127.0.0.1:3000/LoginSignup/login.html" id="disabledLink" class="box">
+                <img src="img/machiatto-img.png" alt="coffee 6">
+                <div class="content">
+                    <h3>machiatto</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, veniam.</p>
+                    <span>9.99 TND</span>
+                </div>
+            </a>
+            <a href="http://127.0.0.1:3000/LoginSignup/login.html" id="disabledLink" class="box">
+                <img src="img/miami-vice-img.png" alt="coffee 6">
+                <div class="content">
+                    <h3>miami vice</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, veniam.</p>
+                    <span>9.99 TND</span>
+                </div>
+            </a>
+
+        </div>
+    </section>
+    <!-- End menu -->
+
+    <!-- Review -->
+    <section class="review" id="review">
+        <h1 class="heading">reviews <span>what people say</span></h1>
+
+        <div class="swiper reviewSlider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="img/pic-2.png" alt="client 1">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quis perferendis quidem maiores
+                        laboriosam asperiores?</p>
+                    <h3>Foulen</h3>
+                    <span>Client</span>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/pic-1.png" alt="client 2">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quis perferendis quidem maiores
+                        laboriosam asperiores?</p>
+                    <h3>Foulen</h3>
+                    <span>Client</span>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/pic-4.png" alt="client 3">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quis perferendis quidem maiores
+                        laboriosam asperiores?</p>
+                    <h3>Foulen</h3>
+                    <span>Client</span>
+                </div>
+                <div class="swiper-slide box"> 
+                    <img src="img/pic-3.png" alt="client 4">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quis perferendis quidem maiores
+                        laboriosam asperiores?</p>
+                    <h3>Foulen</h3>
+                    <span>Client</span>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- End Review -->
+
+    <!-- Book Section -->
+    <section class="book" id="book">
+        <h1 class="heading">booking <span>booking</span></h1>
+
+        <div class="pricing">
+            <div class="container">
+                <div class="plans">
+
+                    <div class="plan">
+                        <div class="head">
+                            <h3>Inside</h3>
+                            <span>2</span>
+                        </div>
+                        <ul>
+                            <li>With 2 chairs</li>
+                            <li>With 4 chairs</li>
+                            <li>With 6 chairs</li>
+                            <li>With 8 chairs</li>
+                        </ul>
+                            <a href="LoginSignup/login.html" class="btn">Reserve Now</a>
+                    </div>
+
+                    <div class="plan">
+                        <div class="head">
+                            <h3>Out Side</h3>
+                            <span>5</span>
+                        </div>
+                        <ul>
+                            <li>With 2 chairs</li>
+                            <li>With 4 chairs</li>
+                            <li>With 6 chairs</li>
+                            <li>With 8 chairs</li>
+                        </ul>
+                            <a href="LoginSignup/login.html" class="btn">Reserve Now</a>
+                    </div>
+
+                    <div class="plan">
+                        <div class="head">
+                            <h3>sea view</h3>
+                            <span>10</span>
+                        </div>
+                        <ul>
+                            <li>With 2 chairs</li>
+                            <li>With 4 chairs</li>
+                            <li>With 6 chairs</li>
+                            <li>With 8 chairs</li>
+                        </ul>
+                            <a href="LoginSignup/login.html" class="btn">Reserve Now</a>
+                    </div>
+
+                    <div class="plan">
+                        <div class="head">
+                            <h3>VIP</h3>
+                            <span>20</span>
+                        </div>
+                        <ul>
+                            <li>With 2 chairs</li>
+                            <li>With 4 chairs</li>
+                            <li>With 6 chairs</li>
+                            <li>With 8 chairs</li>
+                        </ul>
+                            <a href="LoginSignup/login.html" class="btn">Reserve Now</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Book Section -->
+
+    <!-- Footer -->
+    <section class="footer">
+        <div class="boxContainer">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home"><i class="fas fa-arrow-right"></i> home</a>
+                <a href="#about"><i class="fas fa-arrow-right"></i> about</a>
+                <a href="#menu"><i class="fas fa-arrow-right"></i> menu</a>
+                <a href="#review"><i class="fas fa-arrow-right"></i> review</a>
+                <a href="#book"><i class="fas fa-arrow-right"></i> book</a>
+            </div>
+            <div class="box">
+                <h3>contact info</h3>
+                <a><i class="fas fa-phone"></i>+216 71 123 456</a>
+                <a><i class="fas fa-mobile"></i> +216 20 123 456</a>
+                <a><i class="fas fa-envelope"></i> CoffeeShop@gmail.com</a>
+                <a><i class="fas fa-location-arrow"></i> Sousse, Tunisia</a>
+            </div>
+            <div class="box">
+                <h3>Social Media</h3>
+                <a><i class="fab fa-facebook-f"></i>&nbsp;facebook</a>
+                <a><i class="fab fa-twitter"></i>twitter</a>
+                <a><i class="fab fa-instagram"></i>instagram</a>
+            </div>
+    </section>
+    <!-- End Footer --> 
+
+
+    <!-- TO TOP BUTTON -->
+    <div id='toTop'>
+        <i class="fas fa-angle-double-up fa-lg totop-icon" title="Go To Top"></i>
+    </div>
+
+    <!-- JS Files -->
+    <script src="js/all.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
